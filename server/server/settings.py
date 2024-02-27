@@ -53,7 +53,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = (
-  'http://localhost:3000',
+  'https://blogs-search-system.vercel.app','https://www.thunderclient.com'
 )
 
 ROOT_URLCONF = 'server.urls'
