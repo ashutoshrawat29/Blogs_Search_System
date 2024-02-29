@@ -197,13 +197,9 @@ from nltk.stem import PorterStemmer
 from collections import Counter
 import num2words
 from num2words import num2words
-import os
-import string
+
 import numpy as np
-import copy
 import pandas as pd
-import pickle
-import re
 import math
 
 def convert_lower_case(data):
